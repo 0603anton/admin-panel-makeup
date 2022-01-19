@@ -40,3 +40,27 @@ html {
   letter-spacing: -0.2px;
   color: #8055FF;
 }
+
+.filter {
+  display: flex;
+  border: #A8A8FF 1px solid;
+  flex-direction: row;
+}
+
+.filter__elem {
+  min-height: 3.2rem;
+  background-color: #8055FF;
+  margin: 0.8rem;
+}
+
+.filter__elem_lg {
+  flex-basis: 25.6rem;
+}
+
+.filter__elem_sm {
+  flex-basis: 3.2rem;
+}
+
+.filter__elem_right-elem {
+  margin-left: auto;
+}
