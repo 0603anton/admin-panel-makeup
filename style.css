@@ -64,3 +64,36 @@ html {
 .filter__elem_right-elem {
   margin-left: auto;
 }
+
+.table {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: #8055FF 2px solid;
+}
+
+.table__header {
+
+  flex: 0 1 4.8rem;
+  background-color: #8055FF;
+}
+
+
+.table__body {
+  background-color: #A8A8FF;
+  flex: 1;
+}
+
+
+.table__footer {
+  flex: 0 1 4.8rem;
+  background-color: #8055FF;
+}
+
+/* ОГРАНИЧЕНИЕ ШИРИНЫ */
+.header,
+.filter,
+.table {
+  min-width: 30rem;
+}
