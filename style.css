@@ -13,7 +13,6 @@ html {
   margin: 0 auto;
   max-width: 160rem;
   padding: 32px 48px 0px;
-
 }
 
 .main-content {
@@ -22,7 +21,7 @@ html {
   flex-direction: column;
 }
 
-.margin_medium {
+.main-content__margin {
   margin-bottom: 3.2rem;
 }
 
@@ -66,11 +65,11 @@ html {
 }
 
 .table {
-  flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   border: #8055FF 2px solid;
+  max-height: 60.8rem;
 }
 
 .table__header {
@@ -82,13 +81,15 @@ html {
 
 .table__body {
   background-color: #A8A8FF;
-  flex: 1;
+  flex: 0 1 51.2rem;
+  overflow-y: scroll;
 }
-
 
 .table__footer {
   flex: 0 1 4.8rem;
   background-color: #8055FF;
+  position: sticky;
+  bottom: 0px;
 }
 
 /* ОГРАНИЧЕНИЕ ШИРИНЫ */
