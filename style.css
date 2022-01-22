@@ -15,21 +15,10 @@ html {
 }
 
 .main-content {
-<<<<<<< HEAD
-  /* min-height: 100%; */
-=======
->>>>>>> test
   display: flex;
   overflow: hidden;
   flex-direction: column;
-<<<<<<< HEAD
-}
-
-.main-content__margin {
-  margin-bottom: 3.2rem;
-=======
   height: 100%;
->>>>>>> test
 }
 
 .header {
@@ -82,11 +71,6 @@ html {
 }
 
 .table {
-<<<<<<< HEAD
-  display: flex;
-  flex-direction: column;
-=======
->>>>>>> test
   border: #8055FF 2px solid;
   display: flex;
   overflow: hidden;
@@ -102,22 +86,16 @@ html {
 
 .table__body {
   background-color: #A8A8FF;
-<<<<<<< HEAD
-  overflow-y: scroll;
-  height: 51.2rem;
-=======
   display: flex;
   overflow: hidden;
   flex-direction: column;
   height: 100%;
->>>>>>> test
 }
+
 
 .table__footer {
   flex: 0 0 4.8rem;
   background-color: #8055FF;
-  position: sticky;
-  bottom: 0px;
 }
 
 .table__content {
