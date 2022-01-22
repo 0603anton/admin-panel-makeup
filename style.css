@@ -1,34 +1,33 @@
 body,
 html {
   width: 100%;
+  height: 100%;
   font-size: 10px;
   background: #FFFFFF;
   box-shadow: 0px 32px 128px rgba(0, 0, 0, 0.5),
     0px 16px 32px rgba(0, 0, 0, 0.34),
     0px 8px 8px rgba(0, 0, 0, 0.25);
-  height: 100%;
 }
 
 .wrapper {
   margin: 0 auto;
-  max-width: 160rem;
   padding: 32px 48px 0px;
-
 }
 
 .main-content {
-  min-height: 100%;
   display: flex;
+  overflow: hidden;
   flex-direction: column;
-}
-
-.margin_medium {
-  margin-bottom: 3.2rem;
+  height: 100%;
 }
 
 .header {
   background-color: #A8A8FF;
   max-height: 3.2rem;
+}
+
+.header_title {
+  margin-bottom: 3.2rem;
 }
 
 .header__page-name {
@@ -43,14 +42,18 @@ html {
 
 .filter {
   display: flex;
-  border: #A8A8FF 1px solid;
-  flex-direction: row;
+  border: #A8A8FF 2px solid;
+  justify-content: space-between;
+  padding: 0.8rem;
+}
+
+.filter_header {
+  margin-bottom: 3.2rem;
 }
 
 .filter__elem {
   min-height: 3.2rem;
   background-color: #8055FF;
-  margin: 0.8rem;
 }
 
 .filter__elem_lg {
@@ -61,39 +64,40 @@ html {
   flex-basis: 3.2rem;
 }
 
-.filter__elem_right-elem {
-  margin-left: auto;
+.filter__elem-group {
+  display: flex;
+  width: 100%;
+  gap: 0.8rem;
 }
 
 .table {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   border: #8055FF 2px solid;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100%;
 }
 
 .table__header {
-
-  flex: 0 1 4.8rem;
+  flex: 0 0 4.8rem;
   background-color: #8055FF;
 }
 
 
 .table__body {
   background-color: #A8A8FF;
-  flex: 1;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  height: 100%;
 }
 
 
 .table__footer {
-  flex: 0 1 4.8rem;
+  flex: 0 0 4.8rem;
   background-color: #8055FF;
 }
 
-/* ОГРАНИЧЕНИЕ ШИРИНЫ */
-.header,
-.filter,
-.table {
-  min-width: 30rem;
+.table__content {
+  overflow-y: auto;
 }
