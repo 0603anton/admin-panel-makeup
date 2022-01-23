@@ -4,8 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write '.'"
+    "prettier": "prettier --write \".\""
   },
+  "pre-commit": [
+    "prettier"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/0603anton/admin-panel-makeup.git"
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/0603anton/admin-panel-makeup#readme",
   "dependencies": {
+    "pre-commit": "^1.2.2",
     "prettier": "^2.5.1"
   }
 }
