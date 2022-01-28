@@ -1,14 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="input.css">
-  <link rel="stylesheet" href="reset.css">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Input</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="input-group">
+        <div class="input-group__item">
+          <label for="dateInput" class="input-group__label"
+            >Дата и время заказа</label
+          >
+          <input
+            type="text"
+            id="dateInput"
+            class="input-group__input"
+            placeholder="Введите"
+          />
+        </div>
+
+        <div class="input-group__item">
+          <label for="dateInput-incorrect" class="input-group__label"
+            >Дата и время заказа</label
+          >
+          <input
+            type="text"
+            id="dateInput-incorrect"
+            class="input-group__input input-group__input_incorrect"
+            placeholder="Введите"
+            value="06.12.2021"
+          />
+        </div>
+
+        <div class="input-group__item">
+          <label for="dateInput-disabled" class="input-group__label"
+            >Дата и время заказа</label
+          >
+          <input
+            type="text"
+            id="dateInput-disabled"
+            class="input-group__input input-group__input_disabled"
+            placeholder="Введите"
+            value="06.12.2021"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
