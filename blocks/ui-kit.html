@@ -17,7 +17,7 @@
   <body>
     <div class="wrapper">
       <div class="input-group">
-        <div class="input-item">
+        <div class="input-item input-item__content">
           <label for="dateInput" class="input-item__label"
             >Дата и время заказа</label
           >
@@ -28,34 +28,35 @@
               class="input-item__input"
               placeholder="Введите"
             />
-            <svg class="input-item__button"></svg>
           </div>
         </div>
 
-        <div class="input-item">
-          <label for="dateInput-incorrect" class="input-item__label"
+        <div class="input-item input-item__content">
+          <label for="dateInputIncorrect" class="input-item__label"
             >Дата и время заказа</label
           >
           <div class="input-item__body">
             <input
               type="text"
-              id="dateInput-incorrect"
+              id="dateInputIncorrect"
               class="input-item__input input-item__input_incorrect"
               placeholder="Введите"
               value="06.12.2021"
             />
-            <svg
-              class="input-item__button input-item__button_incorrect"
-              viewBox="0 0 16 16"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
-            </svg>
+            <button class="input-item__button">
+              <svg
+                class="input-item__button_incorrect"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
+              </svg>
+            </button>
           </div>
         </div>
 
-        <div class="input-item">
+        <div class="input-item input-item__content">
           <label for="dateInput-disabled" class="input-item__label"
             >Дата и время заказа</label
           >
@@ -66,9 +67,10 @@
               class="input-item__input input-item__input_disabled"
               placeholder="Введите"
               value="06.12.2021"
+              disabled
             />
             <svg
-              class="input-item__button"
+              class="input-item__button input-item__button_lock"
               viewBox="0 0 16 16"
               stroke="none"
               xmlns="http://www.w3.org/2000/svg"
