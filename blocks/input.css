@@ -98,11 +98,23 @@ input::placeholder {
   background-color: var(--input-background-color-lock);
 }
 
+.input-item__input_disabled:disabled {
+  color: var(--input-font-default);
+}
+
 .input-item__button_incorrect {
   stroke: var(--input-background-color-lock);
 }
 
-.input-item__button_lock {
+.input-item__icon {
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  top: 8px;
+  right: 8px;
+}
+
+.input-item__icon_lock {
   stroke: var(--input-font-default);
   cursor: default;
 }
