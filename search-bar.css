@@ -24,7 +24,7 @@
 }
 
 .input-item__input_without-text {
-  padding: 0.8rem 0.8rem 0.8rem 3.1rem;
+  padding: 0.8rem 3.2rem 0.8rem 3.1rem;
 }
 
 .input-item__input_with-text {
@@ -43,7 +43,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-.input-item__button_search {
+.input-item__icon_search {
   height: 16px;
   width: 16px;
   top: 8px;
@@ -60,6 +60,14 @@ input::placeholder {
   stroke: var(--input-background-color-lock);
 }
 
-.input-item__button_icon-search {
+.input-item__icon_icon-search {
   stroke: var(--input-border-default);
+}
+
+.input-item__icon {
+  position: absolute;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: default;
 }
