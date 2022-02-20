@@ -26,7 +26,7 @@
   justify-content: center;
 }
 
-.check:not(:last-child) {
+.checkbox-group__checkbox:not(:last-child) {
   margin-right: 2.4rem;
 }
 
@@ -62,11 +62,6 @@
 
 .check__box:checked::before {
   background-color: var(--input-border-default);
-}
-
-.check__box:focus {
-  outline: max(2px, 0.15em) solid var(--input-border-default);
-  outline-offset: max(2px, 0.15em);
 }
 
 .radio {
@@ -107,11 +102,6 @@
   background-color: var(--input-border-default);
 }
 
-.radio:not(:last-child) {
+.radio-group__radiobutton:not(:last-child) {
   margin-right: 2.4rem;
-}
-
-.radio__item:focus {
-  outline: max(2px, 0.15em) solid var(--input-border-default);
-  outline-offset: max(2px, 0.15em);
 }
