@@ -61,6 +61,10 @@
   margin-left: 0.8rem;
 }
 
+.button_sm .button__text {
+  margin-left: 0.4rem;
+}
+
 .button_sm-without-text {
   padding: 0.4rem;
 }
