@@ -40,7 +40,7 @@
   color: currentColor;
   width: 1.6rem;
   height: 1.6rem;
-  border: 1px solid var(--input-background-color-lock);
+  border: 1px solid #bad8f5;
   border-radius: 2px;
   /* Центрируем псевдоэлемент */
   display: flex;
@@ -79,7 +79,7 @@
   color: currentColor;
   width: 1.6rem;
   height: 1.6rem;
-  border: 1px solid var(--input-background-color-lock);
+  border: 1px solid #bad8f5;
   border-radius: 50%;
   display: flex;
   align-items: center;
