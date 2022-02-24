@@ -1,12 +1,3 @@
-:root {
-  --border-border-default: #8055ff;
-  --input-font-default: #000;
-  --input-border-default: #459df5;
-  --input-border-error: #f53152;
-  --input-background-color-lock: #bad8f5;
-  --input-background-main: #e5e5e5;
-}
-
 .button-wrapper {
   width: 576px;
   min-height: 376px;
@@ -53,11 +44,7 @@
   padding: 0.4rem 0.8rem;
 }
 
-.button-group__button-md:not(:last-child) {
-  margin-bottom: 1.6rem;
-}
-
-.button-group__button-sm:not(:last-child) {
+.button-group__button:not(:last-child) {
   margin-bottom: 1.6rem;
 }
 
@@ -66,40 +53,35 @@
 }
 
 .button__icon {
-  fill: var(--input-border-default);
   width: 1.6rem;
   height: 1.6rem;
-  margin-right: 0.8rem;
 }
 
-.button__icon_without-text {
-  margin: 0;
+.button__icon + span {
+  margin-left: 0.8rem;
 }
 
 .button_sm-without-text {
   padding: 0.4rem;
-  margin: 0;
 }
 
 .button_blue {
   color: #fff;
-  background-color: var(--input-border-default);
+  background-color: #459df5;
+  fill: #fff;
+}
+button + .button__icon {
+  fill: inherit;
 }
 
 .button_blue-reverse {
   color: #459df5;
-  background-color: var(--input-background-main);
+  background-color: #e5e5e5;
+  fill: #459df5;
 }
 
 .button_black-reverse {
   color: black;
-  background-color: var(--input-background-main);
-}
-
-.button__icon_color-black {
-  fill: #000;
-}
-
-.button__icon_color-white {
-  fill: #fff;
+  background-color: #e5e5e5;
+  fill: #000000;
 }
