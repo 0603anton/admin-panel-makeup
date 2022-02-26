@@ -27,5 +27,8 @@
   "bugs": {
     "url": "https://github.com/0603anton/admin-panel-makeup/issues"
   },
-  "homepage": "https://github.com/0603anton/admin-panel-makeup#readme"
+  "homepage": "https://github.com/0603anton/admin-panel-makeup#readme",
+  "dependencies": {
+    "jshint": "^2.13.4"
+  }
 }
